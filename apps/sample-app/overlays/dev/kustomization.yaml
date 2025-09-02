@@ -1,0 +1,8 @@
+namespace: dev
+
+resources:
+  - ../../base                 # app base
+  - ../../../../infra/base     # points to root-level infra
+
+patches:
+  - path: replica-patch.yaml
